@@ -198,7 +198,7 @@ int main()
     printf("Enter size of array=\n" );
     scanf("%d",&size );
     printf("Enter element and corresponding frequency=\n");
-    for(i=0 ; i<=size; i++)
+    for(i=0 ; i<size; i++)
     scanf("%s %d\n", &arr[i],&freq[i] );
     HuffmanCodes(arr, freq, size);
     return 0;
